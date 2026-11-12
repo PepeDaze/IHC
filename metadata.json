@@ -1,0 +1,6 @@
+{
+  "name": "RutaFácil - CRM de Gestión de Concesiones y Flotas de Transporte",
+  "description": "Plataforma SaaS B2B para la administración integral de flotas de transporte público, concesiones, suscripciones y cobranza municipal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

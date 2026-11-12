@@ -1,0 +1,214 @@
+---
+name: Fleet Modernist Transit
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#d4dae7'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff4ff'
+  surface-container: '#e8eefc'
+  surface-container-high: '#e2e8f6'
+  surface-container-highest: '#dce3f0'
+  on-surface: '#151c25'
+  on-surface-variant: '#434653'
+  inverse-surface: '#2a313b'
+  inverse-on-surface: '#eaf1fe'
+  outline: '#737785'
+  outline-variant: '#c3c6d6'
+  surface-tint: '#1257ca'
+  primary: '#0044a6'
+  on-primary: '#ffffff'
+  primary-container: '#1a5bce'
+  on-primary-container: '#d4ddff'
+  inverse-primary: '#b1c5ff'
+  secondary: '#006c4e'
+  on-secondary: '#ffffff'
+  secondary-container: '#97f5cc'
+  on-secondary-container: '#007353'
+  tertiary: '#7c3600'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#a14800'
+  on-tertiary-container: '#ffd6c1'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dae2ff'
+  primary-fixed-dim: '#b1c5ff'
+  on-primary-fixed: '#001847'
+  on-primary-fixed-variant: '#00409f'
+  secondary-fixed: '#97f5cc'
+  secondary-fixed-dim: '#7bd8b1'
+  on-secondary-fixed: '#002115'
+  on-secondary-fixed-variant: '#00513a'
+  tertiary-fixed: '#ffdbca'
+  tertiary-fixed-dim: '#ffb68e'
+  on-tertiary-fixed: '#331200'
+  on-tertiary-fixed-variant: '#763300'
+  background: '#f8f9ff'
+  on-background: '#151c25'
+  surface-variant: '#dce3f0'
+typography:
+  display-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+  display-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 28px
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  title-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  label-lg:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system serves urban transit concessionaires and fleet operators navigating route management, subscription dues, and municipal concessions. The visual identity merges systematic utility with high-legibility operations design: an aesthetic rooted in functional modernism and clarity under intense operational tempo.
+
+The emotional signature is dependable, authoritative, and direct. Concessionaires manage cash flow, driver assignments, and vehicle compliance under strict deadlines; the interface eliminates ambient noise, frivolous gradients, and ambiguous interactions in favor of crisp administrative density and uncompromising accessibility. High-contrast typography, structural panels, and unmistakable operational states provide certainty across sunlight-drenched dispatch terminals and mobile inspections.
+
+## Colors
+
+The palette leverages a high-contrast chromatic structure tuned for enterprise administrative workflows:
+
+- **Primary Blue (`#1A5BCE`)**: Primary actions, interactive indicators, active navigation nodes, and active subscription status markers.
+- **Deep Slate Canvas / Typography (`#0A111A`)**: High-contrast body typography, desktop navigation rails, and data table headers.
+- **Pure White (`#FFFFFF`)**: Primary foreground surfaces, card containers, contextual sheets, and data entry matrices.
+- **Neutral Steps**:
+  - `#F8FAFC` (Slate 50): Global application backdrop canvas.
+  - `#F1F5F9` (Slate 100): Subtle structural dividers, alternating table row shading, and component borders.
+  - `#E2E8F0` (Slate 200): Inactive field boundaries and card perimeters.
+  - `#334155` (Slate 700): Meta labels, secondary descriptors, and auxiliary table column values.
+- **Functional Semantics**:
+  - **Success Emerald (`#047857`)**: Validated concessions, on-time fee collections, and active routes. Exceeds WCAG AAA contrast requirements against light backgrounds.
+  - **Warning Amber (`#B45309`)**: Expiring concessions, routine inspections due, and pending balance reconciliations.
+  - **Error Crimson (`#B91C1C`)**: Disciplinary suspensions, delinquent route dues, and mechanical out-of-service alerts.
+
+## Typography
+
+Typography prioritizes legibility and swift scanning over decorative flourishes.
+
+- **Headlines & Titles**: Handled via `Plus Jakarta Sans`, utilizing structured weights (600/700) for metric displays, module heads, and dialog banners.
+- **Body & Data Grid Cells**: Utilizes `Inter` for regular text hierarchies, ensuring distinct glyph identification and neutral legibility across multi-column data views.
+- **Labels, Metrics, & Badges**: Set in `Inter` with medium-to-bold weights (600/700) and optical tracking adjustments (+0.02em to +0.04em) to preserve readability on status pills and metadata rows.
+
+## Layout & Spacing
+
+The spatial architecture relies on a fluid 12-column grid on desktop screens, transitioning to an 8-column layout on tablet devices and a 4-column layout on mobile viewports.
+
+- **Desktop (1024px and up)**: 240px fixed side-rail for primary navigation; persistent content area spanning a 12-column fluid grid with `1.5rem` gutters and `2rem` screen margins.
+- **Tablet (768px - 1023px)**: Side-rail collapses to an icon drawer; 8-column layout with `1rem` gutters and `1.5rem` margins.
+- **Mobile (< 768px)**: 4-column layout with `1rem` margins and gutters. Desktop tabular grids transform into stacked operational cards.
+- **Vertical Rhythm**: Layout flows use consistent multiples of `0.25rem` (4px), reserving `space-md` (`1rem`) for standard component interiors and `space-xl` (`2rem`) for major functional section separation.
+
+## Elevation & Depth
+
+This system avoids heavy shadows and skeuomorphic blurs, utilizing tonal separation and structural low-contrast borders for elevation:
+
+- **Level 0 (App Canvas)**: Surface background tinted with Neutral Slate 50 (`#F8FAFC`).
+- **Level 1 (Cards, Modules, Sidebars)**: Elevated onto pure `#FFFFFF` surfaces paired with a 1px border of `#E2E8F0` or `#F1F5F9`.
+- **Level 2 (Popovers, Filter Menus, Dropdowns)**: White surfaces bounded by `#E2E8F0` paired with an ambient, low-contrast shadow: `0 4px 12px -2px rgba(10, 17, 26, 0.08), 0 2px 6px -1px rgba(10, 17, 26, 0.04)`.
+- **Level 3 (Modal Overlays, Critical Dialogs)**: Pure `#FFFFFF` floating over a backdrop wash of `#0A111A` at 48% opacity, styled with a defined border (`#E2E8F0`) and an elevated structural drop: `0 20px 25px -5px rgba(10, 17, 26, 0.12), 0 8px 10px -6px rgba(10, 17, 26, 0.08)`.
+
+## Shapes
+
+Shapes feature a restrained, soft profile (`roundedness: 1`), reinforcing precision and maximum spatial efficiency:
+
+- **Base Components (Inputs, Buttons, Cells)**: `0.25rem` (4px) corner radius for sharp geometric alignment.
+- **Containers (Cards, Modal Sheets)**: `0.5rem` (8px) corner radius.
+- **Pill Elements (Status Badges, Filter Chips)**: Full pill geometry (`rounded-full`) exclusively used for status indicators, micro-metrics, and categorical filters to distinguish dynamic states from clickable square action buttons.
+
+## Components
+
+### Buttons
+- **Primary**: Solid `#1A5BCE` fill, `#FFFFFF` text (`label-lg`), height 40px, horizontal padding `1rem`, `rounded` (4px). Focus ring: `focus-visible:ring-2 focus-visible:ring-[#1A5BCE] focus-visible:ring-offset-2`.
+- **Secondary**: `#FFFFFF` background, 1px border `#E2E8F0`, `#0A111A` text. Hover: `#F8FAFC`.
+- **Destructive**: Solid `#B91C1C` fill or outlined 1px `#B91C1C` border with `#B91C1C` text for irreversible route/driver terminations. Focus ring: `focus-visible:ring-2 focus-visible:ring-[#B91C1C] focus-visible:ring-offset-2`.
+
+### Input Fields & Controls
+- **Text Inputs**: Height 40px, pure `#FFFFFF` background, 1px border `#E2E8F0`, internal text `#0A111A`, placeholder `#334155`. Labels must always render outside the input field in `#334155` (`label-md`).
+- **Focus State**: `border-[#1A5BCE]` with `ring-2 ring-[#1A5BCE] ring-offset-2`.
+- **Checkboxes & Radios**: 18px x 18px dimensions, 1px border `#E2E8F0`, checked fill `#1A5BCE`, displaying an explicit SVG check/dot with standard high-visibility focus offset ring.
+
+### Data Tables
+- **Header**: `#0A111A` background with `#FFFFFF` text (`label-md`), uppercase tracking, height 44px, horizontal cell padding `1rem`.
+- **Rows**: `#FFFFFF` alternating with `#F8FAFC`, delimited by 1px `#F1F5F9` bottom border. Cell vertical padding minimum `12px` (generous row spacing for rapid scanning).
+
+### Badges & Status Chips
+Always combine a clear SVG icon with explicit text; color alone cannot convey state:
+- **Paid / Active**: `#047857` icon and text on a 10% `#047857` tint background with full pill radius.
+- **Pending / Expiring**: `#B45309` icon and text on a 10% `#B45309` tint background.
+- **Delinquent / Inactive**: `#B91C1C` icon and text on a 10% `#B91C1C` tint background.
+
+### Cards & Panels
+- White `#FFFFFF` surface, 1px solid `#E2E8F0` border, `0.5rem` radius, internal padding `1.5rem`.
+- Header section partitioned with a 1px bottom divider `#F1F5F9` separating operational actions from detail contents.
